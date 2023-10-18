@@ -1,0 +1,14 @@
+package com.id.ac.binus.pokedex.model;
+
+public abstract class Pokemon {
+    private String name;
+    private int image;
+
+    public Pokemon(String name, int image){
+        this.name = name;
+        this.image = image;
+    }
+
+    public String getName() { return name; }
+    public int getImage() { return image; }
+}
